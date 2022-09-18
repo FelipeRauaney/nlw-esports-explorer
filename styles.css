@@ -82,9 +82,12 @@ color: #A1A1AA;
 section ul {
     display: flex;
     gap: 16px;;
-
+    flex-wrap: wrap;
     margin-top: 24px;
     transition: transform .3s;
+}
+section ul li {
+    transition: transform 0.3s;
 }
 
 section ul li:hover {
